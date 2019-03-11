@@ -28,6 +28,7 @@
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+	<page-loader></page-loader>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

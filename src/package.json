@@ -1,0 +1,33 @@
+{
+  "name": "wp-vuejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./js/main.js -d ../dist --detailed-report",
+    "watch": "parcel watch ./js/main.js  -d ../dist --no-hmr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "spectre.css": "^0.5.8",
+    "vue": "^2.6.8",
+    "vue-lazyload": "^1.2.6",
+    "vue-slider-component": "^3.0.8",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
+    "autoprefixer": "^9.4.10",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.0",
+    "sass": "^1.17.2",
+    "vue-template-compiler": "^2.6.8"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}

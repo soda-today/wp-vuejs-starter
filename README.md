@@ -1,8 +1,12 @@
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
-# \_s
+# WP Vue.js Starter Theme
 
-Hi. I'm a starter theme helping you getting started with a Wordpress/vue.js/SCSS Stack with parcel. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme helping you getting started with a Wordpress/vue.js/SCSS Stack with parcel.
+
+Gutenberg and custom blocks enable us to easly create complex content blocks where Vue.js can be very helpful. Let me help you implement vue.js in your custom Theme.
+
+I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
@@ -41,3 +45,11 @@ Then, update the stylesheet header in `style.css`, the links in `footer.php` wit
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+
+## Credits
+
+This Template has been strongly inspired by:
+
+- `Using Parce In A Vue.js App`: https://scotch.io/tutorials/using-parcel-in-a-vuejs-app
+- `Spectre.css`: https://picturepan2.github.io/spectre/components/menu.html
+- `Introducing ACF Blocks for Gutenberg`: https://www.advancedcustomfields.com/blog/acf-5-8-introducing-acf-blocks-for-gutenberg/
