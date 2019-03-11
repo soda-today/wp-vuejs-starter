@@ -131,6 +131,12 @@ function wpvs_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+  $params = array(
+    'url' => admin_url('admin-ajax.php'),
+    'nonce' => wp_create_nonce('ajax_nonce'),
+  );
+  wp_localize_script( 'wpvs-script', 'ajax', $params );
 }
 add_action( 'wp_enqueue_scripts', 'wpvs_scripts' );
 

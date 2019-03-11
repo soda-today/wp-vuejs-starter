@@ -13698,7 +13698,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // add nonce or CSRF Token to Axios
 _axios.default.interceptors.request.use(function (config) {
   // Do something before request is sent
-  config.headers["X-WP-Nonce"] = window.apiNonce;
+  config.headers["X-WP-Nonce"] = ajax.nonce;
   return config;
 }, function (error) {
   // Do something with request error
