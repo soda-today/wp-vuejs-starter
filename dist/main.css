@@ -4670,5 +4670,11 @@ a.text-error:visited {
 
 
 
+.price-calculator__table[data-v-b0a44e] {
+  width: 400px;
+}
+.price-calculator__table tbody td[data-v-b0a44e] {
+  width: 200px;
+}
 
 /*# sourceMappingURL=/main.css.map */

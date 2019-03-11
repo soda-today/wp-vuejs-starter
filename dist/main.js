@@ -14947,6 +14947,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   components: {
     VueSlider: _vueSliderComponent.default
@@ -14955,6 +14965,12 @@ var _default = {
     return {
       nbBottles: 0
     };
+  },
+  computed: {
+    price: function price() {
+      var nbBottles = this.nbBottles;
+      if (nbBottles < 10) return 29 * nbBottles;else if (nbBottles < 50) return 27 * nbBottles;else return 25 * nbBottles;
+    }
   }
 };
 exports.default = _default;
@@ -14974,9 +14990,16 @@ exports.default = _default;
     "div",
     { staticClass: "price-calculator__wrapper" },
     [
-      _c("p", [
-        _vm._v("\n    Number Bottles:\n    "),
-        _c("strong", [_vm._v(_vm._s(_vm.nbBottles))])
+      _c("table", { staticClass: "table price-calculator__table" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v(_vm._s(_vm.nbBottles))]),
+            _vm._v(" "),
+            _c("td", [_vm._v("$" + _vm._s(_vm.price))])
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("vue-slider", {
@@ -14992,14 +15015,27 @@ exports.default = _default;
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("Number Bottles")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Price")])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
           return {
             render: render,
             staticRenderFns: staticRenderFns,
             _compiled: true,
-            _scopeId: null,
+            _scopeId: "data-v-b0a44e",
             functional: undefined
           };
         })());
