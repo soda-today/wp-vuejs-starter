@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
 # WP Vue.js Starter Theme
 
 Hi. I'm a starter theme helping you getting started with a Wordpress/vue.js/SCSS Stack with parcel.
