@@ -3,3 +3,13 @@
 @import "variables";
 @import "node_modules/spectre.css/src/spectre";
 @import "node_modules/spectre.css/dist/spectre-icons";
+
+@import "layout/content";
+@import "partials/header";
+@import "partials/footer";
+
+@import "widgets/search";
+
+@import "components/main_navigation";
+@import "components/post";
+@import "components/vue_slider";

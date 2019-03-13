@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./js/main.js -d ../dist --detailed-report",
-    "watch": "parcel watch ./js/main.js  -d ../dist --no-hmr"
+    "build": "parcel build ./js/main.js -d ../dist --public-url . --detailed-report",
+    "watch": "parcel watch ./js/main.js  -d ../dist --public-url . --no-hmr"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,26 @@
+.site-content {
+  width: $max-content-width;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 5rem 1rem;
+}
+
+.content-area {
+  flex: 1;
+}
+
+.widget-area {
+  width: calc(30% - 4rem);
+  margin-left: 4rem;
+}
+
+.site-footer {
+  flex: 1;
+  width: 100%;
+}

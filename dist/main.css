@@ -593,7 +593,7 @@ html {
 body {
   background: #fff;
   color: #3b4351;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", sans-serif, "Helvetica Neue", sans-serif;
   font-size: 0.8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -752,22 +752,22 @@ html:lang(zh),
 html:lang(zh-Hans),
 .lang-zh,
 .lang-zh-hans {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", sans-serif, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 }
 
 html:lang(zh-Hant),
 .lang-zh-hant {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", sans-serif, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
 }
 
 html:lang(ja),
 .lang-ja {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", sans-serif, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", sans-serif;
 }
 
 html:lang(ko),
 .lang-ko {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Malgun Gothic", "Helvetica Neue", sans-serif;
+  font-family: "Work Sans", sans-serif, "Malgun Gothic", "Helvetica Neue", sans-serif;
 }
 
 :lang(zh) ins,
@@ -4532,6 +4532,105 @@ a.text-error:visited {
           transform: translate(-50%, -40%) rotate(-135deg);
   width: 0.5em;
 }
+
+.site-content {
+  width: 1400px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5rem 1rem;
+}
+
+.content-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.widget-area {
+  width: calc(30% - 4rem);
+  margin-left: 4rem;
+}
+
+.site-footer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.site-title a {
+  text-decoration: none;
+}
+
+.site-branding {
+  padding: 4rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.site-footer {
+  padding: 1rem;
+  background-color: #f7f8f9;
+}
+.site-footer .site-info {
+  width: 1400px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.widget_search {
+  margin-bottom: 2rem;
+}
+
+.main-navigation .menu > ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-navigation .menu > ul > li {
+  margin: 0px 0.5rem;
+}
+.main-navigation .menu > ul > li > a {
+  display: block;
+  padding: 0.5rem;
+}
+
+.entry-meta {
+  margin-bottom: 2rem;
+}
+
+.site-content .vue-slider-process {
+  background-color: #0300ff;
+}
+.site-content .vue-slider-dot-tooltip-inner {
+  color: #fff;
+  border-color: #0300ff;
+  background-color: #0300ff;
+}
 .page-loader__wrapper[data-v-317636] {
   position: fixed;
   top: 0px;
@@ -4677,4 +4776,4 @@ a.text-error:visited {
   width: 200px;
 }
 
-/*# sourceMappingURL=/main.css.map */
+/*# sourceMappingURL=main.css.map */

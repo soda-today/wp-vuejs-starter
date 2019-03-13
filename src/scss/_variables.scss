@@ -42,8 +42,7 @@ $link-color-light: lighten($link-color, 10%);
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
-$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-  Roboto;
+$base-font-family: "Work Sans", sans-serif;
 $mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier,
   monospace;
 $fallback-font-family: "Helvetica Neue", sans-serif;
@@ -104,6 +103,8 @@ $control-width-sm: 320px;
 $control-width-md: 640px;
 $control-width-lg: 960px;
 $control-width-xl: 1280px;
+
+$max-content-width: 1400px;
 
 // Responsive breakpoints
 $size-xs: 480px;

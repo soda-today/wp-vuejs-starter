@@ -1,0 +1,21 @@
+.main-navigation {
+  .menu {
+    & > ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > li {
+        margin: 0px 0.5rem;
+
+        & > a {
+          display: block;
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+}

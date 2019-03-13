@@ -15085,4 +15085,4 @@ new _vue.default({
   }
 });
 },{"vue":"../node_modules/vue/dist/vue.common.js","axios":"../node_modules/axios/index.js","vue-lazyload":"../node_modules/vue-lazyload/vue-lazyload.js","../scss/style.scss":"../scss/style.scss","./bootstrap.js":"bootstrap.js","./store/index.js":"store/index.js","./components/PageLoader.vue":"components/PageLoader.vue","./components/PriceCalculator.vue":"components/PriceCalculator.vue"}]},{},["main.js"], null)
-//# sourceMappingURL=/main.js.map
+//# sourceMappingURL=main.js.map

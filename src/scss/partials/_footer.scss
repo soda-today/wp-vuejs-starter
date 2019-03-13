@@ -1,0 +1,13 @@
+.site-footer {
+  padding: 1rem;
+  background-color: $gray-color-light;
+
+  .site-info {
+    width: $max-content-width;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+  }
+}

@@ -62,19 +62,19 @@ if ( ! function_exists( 'wpvs_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'wpvs' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'wpvs' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( '<div class="cat-links">' . esc_html__( 'Posted in %1$s', 'wpvs' ) . '</div>', $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'wpvs' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'wpvs' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<div class="tags-links">' . esc_html__( 'Tagged %1$s', 'wpvs' ) . '</div>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
 
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-			echo '<span class="comments-link">';
+			echo '<div class="comments-link">';
 			comments_popup_link(
 				sprintf(
 					wp_kses(
@@ -89,7 +89,7 @@ if ( ! function_exists( 'wpvs_entry_footer' ) ) :
 					get_the_title()
 				)
 			);
-			echo '</span>';
+			echo '</div>';
 		}
 
 		edit_post_link(
